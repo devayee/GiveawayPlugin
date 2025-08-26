@@ -4,6 +4,9 @@
 ##### Lists of my plugins
 > soon
 
+Dependencies:
+
+Counter-Strike Sharp – required for the plugin to function.
 
 ### Features
 
