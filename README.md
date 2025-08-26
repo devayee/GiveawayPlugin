@@ -19,7 +19,7 @@ Counter-Strike Sharp – required for the plugin to function.
 # Commands
 **!giveaway**
 
-`Usage: /hide`
+`Usage: !giveaway`
 
 | Command      | Permission   |
 | ------------ | ------------ |
