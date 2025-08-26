@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>latest</LangVersion>
+
+    <!-- Plugin se builda kao DLL biblioteka -->
+    <OutputType>Library</OutputType>
+    
+    <!-- Ako želiš da se output DLL odmah kopira u CSS plugins folder -->
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Referenca na CounterStrikeSharp API -->
+    <Reference Include="CounterStrikeSharp.API">
+      <HintPath>..\CounterStrikeSharp\CounterStrikeSharp.API.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CounterStrikeSharp.API" Version="1.0.337" />
+  </ItemGroup>
+
+</Project>
