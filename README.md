@@ -1,4 +1,3 @@
-# soon discord
 
 
 ##### Lists of my plugins
