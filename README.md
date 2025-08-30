@@ -1,4 +1,7 @@
 
+### Discord Server
+https://discord.gg/tn2V6N2PkP
+
 
 ##### Lists of my plugins
 > soon
